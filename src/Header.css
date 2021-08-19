@@ -1,0 +1,40 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: yellow;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  justify-content: space-between;
+}
+.header_logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 18px;
+}
+.header_optionLineOne {
+  font-size: 10px;
+}
+.header_optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+.header_nav {
+  display: flex;
+  float: right;
+}
+.header_option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.header_optionBasket{
+  display: flex;
+  align-items: center;
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+}
